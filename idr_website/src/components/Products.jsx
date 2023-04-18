@@ -51,7 +51,7 @@ function Products() {
   useEffect(()=>{
     const getProducts = async()=>{
       try{
-        const res = await axios.get( `https://idrtest.herokuapp.com/api/products/`)
+        const res = await axios.get( `https://idr.onrender.com/api/products/`)
         
         setProducts(res.data);
         console.log(res);

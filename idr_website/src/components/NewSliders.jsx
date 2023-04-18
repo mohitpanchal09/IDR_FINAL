@@ -42,7 +42,7 @@ const NewSliders = () => {
     useEffect(()=>{
       const getProducts = async()=>{
         try{
-          const res = await axios.get( `/api/images/`)
+          const res = await axios.get( `https://idr.onrender.com/api/images/`)
           
           setProducts(res.data);
           console.log(res);

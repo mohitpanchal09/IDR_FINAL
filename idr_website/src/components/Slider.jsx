@@ -90,7 +90,7 @@ const Slider = () => {
     useEffect(()=>{
       const getProducts = async()=>{
         try{
-          const res = await axios.get( `/api/products/find/`+id)
+          const res = await axios.get( `https://idr.onrender.com/api/products/find/`+id)
           
           setProducts(res.data);
           console.log(res);
