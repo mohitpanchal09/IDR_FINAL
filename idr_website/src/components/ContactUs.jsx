@@ -48,13 +48,23 @@ const ContactUs = () => {
           <div class="contact-form-background">
             <form name="submit-to-google-sheet" ref={Form} onSubmit={sendEmail}>
               <div class="input-container">
-                <input type="text" name="name" class="input" />
-                <label for="">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  class="input"
+                  placeholder="Name"
+                />
+                {/* <label for="">Name</label> */}
                 <span>Name</span>
               </div>
               <div class="input-container">
-                <input type="email" name="email" class="input" />
-                <label for="">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  class="input"
+                  placeholder="Email"
+                />
+                {/* <label for="">Email</label> */}
                 <span>Email</span>
               </div>
               {/* <div class="input-container">
@@ -63,8 +73,12 @@ const ContactUs = () => {
                 <span>Phone</span>
               </div> */}
               <div class="input-container textarea">
-                <textarea name="message" class="input"></textarea>
-                <label for="">Message</label>
+                <textarea
+                  name="message"
+                  class="input"
+                  placeholder="Message"
+                ></textarea>
+                {/* <label for="">Message</label> */}
                 <span>Message</span>
               </div>
               <div class="buttons">
