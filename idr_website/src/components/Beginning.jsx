@@ -11,6 +11,7 @@ import Lottie from "react-lottie";
 import animationData from "./dronelottie.json";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 const Container = styled.div`
   background-color: black;
   display: flex;
@@ -109,6 +110,7 @@ const Title = styled.div`
   ${mobile2({ fontSize: "28px" })}
   ${mobile8({ fontSize: "24px" })}
 `;
+
 const Tape = styled.div`
   background-color: black;
 `;
@@ -166,7 +168,7 @@ const Beginning = () => {
         <ParentContainer>
           <Rectangle></Rectangle>
           <ImageContainer data-aos={"fade-left"}>
-            <Image src="https://media.discordapp.net/attachments/1036195620693749825/1150301714742771823/image.png?width=1200&height=858" />
+            <Image src="https://media.discordapp.net/attachments/1036195620693749825/1150457801395679422/image.png?width=1272&height=1018" />
           </ImageContainer>
         </ParentContainer>
       </Wrapper1>
