@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import styled from "styled-components";
 import RightNav from "./RightNav";
 
@@ -6,6 +6,7 @@ const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
   // position: fixed;
+  opacity: 100;
   top: 15px;
   right: 2000px;
   z-index: 2000;
@@ -44,6 +45,7 @@ const StyledBurger = styled.div`
 
 const Burger = () => {
   const [open, setOpen] = useState(false);
+  const productRef = useRef();
 
   return (
     <>

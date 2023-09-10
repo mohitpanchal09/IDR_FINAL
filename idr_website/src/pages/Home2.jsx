@@ -1,49 +1,50 @@
-import React from 'react'
+import React from "react";
+import { useRef } from "react";
 // import Agocharfeature from '../components/Agocharfeature'
 // import Features from '../components/Features'
-import Navbar from '../components/Navbar'
+import Navbar from "../components/Navbar";
 // import Slider from '../components/Slider'
-import Newsletter from '../Newsletter'
-import Footer from '../components/Footer'
-import Services from '../components/Services'
-import Tape1 from '../components/Tape1'
-import Tape2 from '../components/Tape2'
-import Industries from '../components/Industries'
-import Beginning from '../components/Beginning'
-import Mentors from '../components/Mentors'
-import ExploreBox from '../components/ExploreBox'
-import ExploreBoxes from '../components/ExploreBoxes'
-import Products from '../components/Products'
-import NewSlider from '../components/NewSlider'
+import Newsletter from "../Newsletter";
+import Footer from "../components/Footer";
+import Services from "../components/Services";
+import Tape1 from "../components/Tape1";
+import Tape2 from "../components/Tape2";
+import Industries from "../components/Industries";
+import Beginning from "../components/Beginning";
+import Mentors from "../components/Mentors";
+import ExploreBox from "../components/ExploreBox";
+import ExploreBoxes from "../components/ExploreBoxes";
+import Products from "../components/Products";
+import NewSlider from "../components/NewSlider";
 // import Projects from '../components/Projects/Projects'
 import AOS from "aos";
-import "aos/dist/aos.css"
-import NewSliders from '../components/NewSliders'
-
+import "aos/dist/aos.css";
+import NewSliders from "../components/NewSliders";
 
 const Home2 = () => {
   AOS.init({
-    duration:2000
-  })
+    duration: 2000,
+  });
+  const productRef = useRef();
   return (
     <div>
-      
-        <Navbar />
+      <Navbar />
+      <div style={{ position: "relative", top: "75px" }}>
         <Beginning />
-        {/* <ExploreBox /> */}
-        
-       <Products />
-        
+        <div id="product-section">
+          <Products ref={productRef} />
+        </div>
         <Tape1 />
         <Services />
         <Tape2 />
         <Industries />
 
-        <NewSliders/>
+        <NewSliders />
         <Newsletter />
         <Footer />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home2
+export default Home2;

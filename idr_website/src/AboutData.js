@@ -34,7 +34,7 @@ export const userData = [
     {
 
         id:1,
-        img:"https://cdn.discordapp.com/attachments/891025496601661504/999221854793384047/unknown.png",
+        img:"https://media.discordapp.net/attachments/1036195620693749825/1150327238923931678/image.png?width=836&height=788",
         name:"Mr.Mayank Pratap Singh",
         designation:"(Director & Founder IDR)",
         desc:"A 2018 Mechanical Engineering pass-out from NIET Greater Noida, Mayank served as SAE College President and had a strong interest in Robotics in which he won 20 different competitions and also worked as a freelancer in the same and completed certain projects with different companies. Growing up as a defence fanatic, he developed Safety Gloves for Soldiers which were incredibly helpful in temperatures as low as -20 degrees Celsius. In May 2019, he started a digital platform named “Indian Defence Reforms” and posted daily defence updates related to the Indian Army, Navy, and Airforce. Despite having the opportunity to pursue Master’s degree in the USA, Mayank stayed in India and started the company along with two more partners which is now known as “IDR Research and Development Pvt Ltd",
@@ -45,7 +45,7 @@ export const userData = [
     {
 
         id:2,
-        img:"https://cdn.discordapp.com/attachments/891025496601661504/999221973706088518/unknown.png",
+        img:"https://media.discordapp.net/attachments/1036195620693749825/1150327345375358996/image.png?width=836&height=788",
         name:"Mr.Vyom Rajan Singh",
         designation:"(Director & Founder IDR)",
         desc:"Despite having a degree of Mechanical Engineering from NIET Greater Noida, Vyom developed a genuine interest in electronics and programming languages. He completed many critical projects during his undergraduate years like Autonomous Drone Systems and Autonomous Patrolling Boats. While working on drone technologies for more than 3 years, he also holds the position of Technical Head for IDR Research and Development Pvt Ltd, where his knowledge is essential to the company's mission to Make India Self Reliant in Drone-Related Tech.",
@@ -58,7 +58,7 @@ export const userData = [
     {
 
         id:3,
-        img:"https://cdn.discordapp.com/attachments/891025496601661504/999222061111185438/unknown.png",
+        img:"https://media.discordapp.net/attachments/1036195620693749825/1150327533741555722/image.png?width=836&height=788",
         name:"Mr.Ankur Yadav",
         designation:"(Director & Co-Founder IDR)",
         desc:"Ankur joined Minda Industries after earning his degree in 2019 from NIET Greater Noida, where he had the opportunity to work with 3D printing and product development and accomplished numerous important designing and prototype projects for them. He worked with numerous global corporations during his undergraduate years, including Philips, Honda MotoCorp, and Hero MotoCorp, to mention a few, because he didn't abandon any single well-known design software. Ankur co-founded IDR Research and Development Pvt Ltd and, thanks to his extraordinary abilities, his company benefited from the same.",
