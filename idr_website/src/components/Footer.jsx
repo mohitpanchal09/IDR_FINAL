@@ -157,8 +157,7 @@ const Footer = () => {
             +91-7827479788
           </ContactItem>
           <ContactItem>
-            <MailOutline style={{ marginRight: "10px" }} />{" "}
-            indiandefencereforms@gmail.com
+            <MailOutline style={{ marginRight: "10px" }} /> info@idrrnd.com
           </ContactItem>
         </Right>
         <Rightest>
