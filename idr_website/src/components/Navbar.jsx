@@ -1,10 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import Burger from "./Burger";
-import { mobile6 } from "../responsive";
+import { mobile6, mobile } from "../responsive";
 const Image = styled.img`
   width: 100px;
   height: 100px;
+  padding: 20px;
+  margin-top: 20px;
 `;
 const Nav = styled.nav`
   width: 100%;
